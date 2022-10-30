@@ -13,10 +13,6 @@ services:
     volumes:
       - static_value:/app/static/
       - media_value:/app/media/
-        #ports:
-        #- "8000:8000"
-        #stdin_open: true
-        #tty: true
     depends_on:
       - db
     env_file:
